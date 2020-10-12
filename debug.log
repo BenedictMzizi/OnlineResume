@@ -1,0 +1,24 @@
+[1008/105036.399:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1008/123059.741:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1012/064705.471:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/064853.597:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/065853.715:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/065853.931:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ BeNito\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\777b27c4-d3cb-4f40-802a-5b824e0db410: The system cannot find the path specified. (0x3)
+[1012/065853.932:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/065853.932:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/065853.941:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/070353.619:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/071853.676:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/073353.679:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/074853.899:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/080353.976:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/081854.078:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/083354.079:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/084854.080:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/090354.080:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/091854.082:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/093354.082:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/094854.084:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/100354.085:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/101855.765:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1012/103627.896:ERROR:crash_report_database_win.cc(457)] unexpected header
