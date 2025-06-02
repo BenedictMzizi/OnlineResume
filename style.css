@@ -1,286 +1,122 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*----------Navigation---------------*/
-.topnav
-{
-    background-color: #333;
-    overflow: hidden;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
 }
-.topnav a
-{
-    float: left;
-    display: block;
-    color: #000;
-    text-align: center;
-    padding: 15px 17px;
-    text-decoration: none;
-    font-size: 18px;
-}
-.topnav a.active 
-{
-    background-color: #4CAF50;
-    color: white;
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
 }
 
-
-
-.topnav .icon
-{
-    display: none;
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
 }
-#nav_bar
-{
-    position: sticky;
-    top: 0;
-    z-index: 10;
+header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
-.navbar-brand img
-{
-    height: 40px;
-    padding-left: 30px;
+header h1 {
+  font-size: 2rem;
+  margin: 10px 0 5px;
 }
-.navbar-nav li
-{
-     padding:0 10px ;
-}
-.navbar-nav li a
-{
-     float:right;
-     text-align:left ;
-}
-.topnav a:hover 
-{
-  background-color: #008000;
-  color: black;
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
 }
 
- .navbar
- {
-     background: #fff;
- }
- .navbar-toggler 
- {
-     border: none!important;
- }
- .nav-link
- {
-     color: #555!important;
-     font-weight: 600;
-     font-size: 16px;
- }
- /*--------slider--------*/
-#slider
-{
-     width: 100%;
+/* Navigation */
+nav {
+  background-color: #333;
 }
-.carousel-caption h5
-{
-     color: #fff
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  background-color: #4CAF50;
+  color: white;
 }
 
- /*---the about section---*/
- #about
- {
-     padding-top: 50px;
-     padding-bottom: 50px;
-     color: #008b8b;
- }
- #about btn
- {
-     margin-top: 20px;
-     margin-bottom: 30;
- }
- .About_Me
- {
-padding-top: 20px;
- }
- .skills_bar p
- {
-     margin-bottom:6px ;
-     font-weight: 600;
- }
- .progress-bar
- {
-     border-radius: 16px;
- }
- .progress
- {
-     border-radius: 16px!important;
-     margin-bottom:20px ;
- }
- /*----Home----*/
- #Home
- {
-     flex-basis:  80%;
-     display: flex;
-     align-items: flex-start;
-     justify-content: center;
-     flex-direction: column;
-     padding: 50px;
-     border-radius: 16px;
-     background-image: url(./img/me.jpg);
-     background-size: cover;
-     background-position: center;
-     background-attachment: fixed;
-     padding-top: 50px;
-     padding-bottom: 50px;
-     color: #fff !important;
- }
- #Home .Home
- {
+/* Sections */
+section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+section:nth-child(even) {
+  background-color: #f0f0f0;
+}
+section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+section p, section li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #007BFF;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
     flex-direction: column;
-    text-align: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 100px 0;
- }
-    #Home h1
-    {
-        color: #008000;
-    }
- #Home h1::after
- {
-     content :'';
-     background: #fff;
-     display: block;
-     height: 3px;
-     width: 170px;
-     margin: 20px auto 5px;
-     
- }
+  }
 
- /*Education*/
- #accademics .accademics
- {
-     flex-direction: column;
-     text-align: center;
-     max-width: 1500px;
-     margin: 0 auto;
-     padding: 100px 0;
- }
+  header img {
+    width: 100px;
+    height: 100px;
+  }
 
- #accademics .accademics_up p
- {
-font-size: 1.5rem;
-margin-top: 6px;
-line-height: 3rem;
-font-weight: 490;
-letter-spacing: .5rem;
-margin: auto;
-width: 490;
- }
+  header h1 {
+    font-size: 1.5rem;
+  }
 
- #accademics .accademics_down
- {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-wrap: wrap;
-     margin-top: 30px;
-     
- }
-
- #accademics .all-accademics
- {
-     flex-basis:  80%;
-     display: flex;
-     align-items: flex-start;
-     justify-content: center;
-     flex-direction: column;
-     padding: 50px;
-     border-radius: 16px;
-     background-image: url(./img/pngtree-education-open-class-poster-background-template-image_141489.jpg);
-     
- }
- /*Asspirations*/
- #Asspirations
- {
-     flex-direction: column;
-     text-align: center;
-     max-width: 1500px;
-     margin: 0 auto;
-     padding: 100px 0;
-     color: #fff !important;
-      background-image: url(./img/download.png);
- }
-
- #Asspirations .Asspirations_up p
- {
-font-size: 1.5rem;
-margin-top: 6px;
-line-height: 3rem;
-font-weight: 490;
-letter-spacing: .5rem;
-margin: auto;
-width: 490;
- }
-
- #Asspirations .Asspirations_down
- {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-wrap: wrap;
-     margin-top: 30px;
- }
-
- #Asspirations .myAspirations
- {
-     flex-basis:  80%;
-     display: flex;
-     align-items: flex-start;
-     justify-content: center;
-     flex-direction: column;
-     padding: 50px;
-     border-radius: 16px;
-    
- }
-
- /*refference*/
-
-#References
-{
-     flex-direction: column;
-     text-align: left;
-     max-width: 1500px;
-     margin: 0 auto;
-     padding: 100px 0;
-     color:  #fff !important;
-    background-image: url(./img/shutterstock_251280265-700x467.jpg);
-}
-
-#References .References_up p
-{
-font-size: 1.5rem;
-margin-top: 6px;
-line-height: 3rem;
-font-weight: 490;
-letter-spacing: .5rem;
-margin: auto;
-width: 490;
-}
-
-#References .References_down
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-#References .myAspirations
-{
-    flex-basis:  80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 50px;
-    border-radius: 16px;
-    
+  section {
+    padding: 40px 15px;
+  }
 }
