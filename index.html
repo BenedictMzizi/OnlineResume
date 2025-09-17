@@ -59,122 +59,168 @@
     </div>
   </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <p>GitHub Repo: <a href="https://github.com/BenedictMzizi">GitHub</a></p>
-      <ul>
-        <li>
+ <section id="projects">
+  <div class="container">
+    <h2>Projects & Technical Analysis</h2>
+    <ul>
+      <li>
         <strong>Online Resume</strong><br>
-        <em>Project Overview:</em> A responsive portfolio and professional resume website hosted on GitHub Pages.<br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Responsive portfolio and professional resume website hosted on GitHub Pages</li>
+          <li>Showcases projects, certifications, and career goals</li>
+          <li>Includes downloadable resume and contact links</li>
+          <li>Designed for mobile and desktop accessibility</li>
+        </ul>
         <em>Tech Stack:</em> HTML5, CSS3, GitHub Pages<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>Functional Testing: Verified responsive layout, navigation, downloadable resume, and project links.</li>
-          <li>UI/UX Analysis: Ensured mobile-friendly layout and accessibility.</li>
-          <li>Performance: Optimized image sizes and load times.</li>
-          <li>Security: Implemented basic input validation in contact form.</li>
+          <li>Functional Testing: Verified responsive layout, navigation, downloadable resume, and project links</li>
+          <li>UI/UX Analysis: Ensured mobile-friendly layout and accessibility</li>
+          <li>Performance: Optimized image sizes and load times</li>
+          <li>Security: Implemented basic input validation in contact form</li>
         </ul>
         <a href="https://benedictmzizi.github.io/OnlineResume">Live Resume</a>
-        </li>
-        
-        <li>
+      </li>
+
+      <li>
         <strong>JungleShop</strong><br>
-        <em>Project Overview:</em> Scalable full-stack e-commerce platform with secure admin functionality and payment integration.<br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Frontend built with React and Tailwind CSS</li>
+          <li>Backend with Node.js + Express and admin-protected CRUD</li>
+          <li>Media storage via AWS S3; deployed on EC2 with PM2 + Nginx</li>
+          <li>Stripe payment integration and secure authentication with JWT</li>
+          <li>Responsive design for desktop and mobile devices</li>
+        </ul>
         <em>Tech Stack:</em> React, Node.js, Express.js, MySQL (AWS RDS), AWS EC2, S3, Stripe, Nginx, PM2, GitHub Actions, Tailwind CSS, JWT<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>Functional Testing: Verified cart persistence, checkout workflow, admin CRUD operations.</li>
-          <li>Integration Testing: Ensured Stripe payment flow and email notifications.</li>
-          <li>UI/UX Analysis: Optimized layout and responsiveness across devices.</li>
-          <li>Security: Implemented secure admin routes; validated inputs against SQL Injection and XSS.</li>
-          <li>Performance: Page load optimization and lazy loading of product images.</li>
+          <li>Functional Testing: Verified cart persistence, checkout workflow, admin CRUD operations</li>
+          <li>Integration Testing: Ensured Stripe payment flow and email notifications</li>
+          <li>UI/UX Analysis: Optimized layout and responsiveness across devices</li>
+          <li>Security: Implemented secure admin routes; validated inputs to prevent SQL Injection and XSS</li>
+          <li>Performance: Page load optimization and lazy loading of product images</li>
         </ul>
         <a href="https://github.com/BenedictMzizi/jungleShop">GitHub</a>
         <a href="http://jungleshop-frontend.s3-website.eu-north-1.amazonaws.com">Live Demo</a>
-        </li>
-        
-        <li>
+      </li>
+
+      <li>
         <strong>Flag Explorer App</strong><br>
-        <em>Project Overview:</em> Full-stack app displaying country flags and details via REST API.<br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Frontend built with React for interactive UI and responsive grid layout</li>
+          <li>Backend built with Node.js + Express for REST API serving country data</li>
+          <li>Supports search, filter, and detailed country information</li>
+          <li>Designed to be educational and interactive for learning about countries</li>
+        </ul>
         <em>Tech Stack:</em> React, Node.js, Express, Render, Vercel, GitHub Actions<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>API Testing: Verified endpoints, response consistency, and error handling.</li>
-          <li>Edge Case Testing: Handled missing data and network errors gracefully.</li>
-          <li>UI/UX Analysis: Ensured search/filter functionality is responsive and user-friendly.</li>
-          <li>Tech Analysis: Used asynchronous API calls and state management to prevent UI flickering.</li>
+          <li>API Testing: Verified endpoints, response consistency, and error handling</li>
+          <li>Edge Case Testing: Handled missing or malformed data and network errors</li>
+          <li>UI/UX Analysis: Ensured search/filter functionality is responsive and user-friendly</li>
+          <li>Tech Analysis: Used asynchronous API calls and state management to prevent UI flickering</li>
         </ul>
         <a href="https://github.com/BenedictMzizi/FlagExplorerApp">GitHub</a>
         <a href="https://flag-explorer-app.vercel.app">Live Demo</a>
-        </li>
+      </li>
 
-        <li>
+      <li>
         <strong>Team Registration App</strong><br>
-        <em>Project Overview:</em> App for managing team registrations with admin approval.<br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Frontend built with React for responsive registration and dashboard</li>
+          <li>Backend powered by Supabase with row-level security for admin authentication</li>
+          <li>Real-time updates for registration approval/rejection and email notifications</li>
+          <li>Designed for multiple teams and participants; prioritizes usability and scalability</li>
+        </ul>
         <em>Tech Stack:</em> React, Supabase, Vercel<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>Functional Testing: Verified registration, admin approval/rejection, and email notifications.</li>
-          <li>Security & Access Control: Tested role-based access and authorization.</li>
-          <li>Usability Analysis: Optimized dashboard for desktop and mobile devices.</li>
-          <li>Comparative Analysis: Chose over basic registration automation for enhanced control and scalability.</li>
+          <li>Functional Testing: Verified registration, admin approval/rejection, and email notifications</li>
+          <li>Security & Access Control: Tested role-based access and authorization</li>
+          <li>Usability Analysis: Optimized dashboard for desktop and mobile devices</li>
+          <li>Comparative Analysis: Chose over basic registration automation for enhanced control and scalability</li>
         </ul>
         <a href="https://github.com/BenedictMzizi/TeamRegistrationApp">GitHub</a>
         <a href="https://team-registration-app.vercel.app">Live Demo</a>
-        </li>
+      </li>
 
-        <li>
+      <li>
         <strong>Registration Automation</strong><br>
-        <em>Project Overview:</em> Automated workflow for school registration.<br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Automates school registration workflow including form submissions and email confirmations</li>
+          <li>Integrates Google Sheets, Mailjet, and Zapier for workflow automation</li>
+          <li>Designed to reduce manual effort, minimize errors, and ensure timely notifications</li>
+        </ul>
         <em>Tech Stack:</em> Google Apps Script, Sheets, Mailjet, Zapier<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>Automation Testing: Verified submission triggers and email dispatch.</li>
-          <li>Edge Case Handling: Checked duplicate entries and failed email attempts.</li>
-          <li>Limitations: Lacked admin approval and scalability compared to Team Registration App.</li>
+          <li>Automation Testing: Verified submission triggers and email dispatch functionality</li>
+          <li>Edge Case Handling: Checked for duplicate entries and failed email attempts</li>
+          <li>Limitations: Lacked admin approval and scalability compared to Team Registration App</li>
         </ul>
         <a href="https://github.com/BenedictMzizi/RegistrationAutomation">GitHub</a>
-        </li>
+      </li>
 
-        <li>
+      <li>
         <strong>Autonomous Line-Following Robot</strong><br>
-        <em>Project Overview:</em> DIY robot that follows lines and avoids obstacles.<br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>DIY robot that autonomously follows a line and avoids obstacles</li>
+          <li>Real-time sensor input handling with Arduino and C++ control logic</li>
+          <li>Designed for embedded systems learning and robotics experimentation</li>
+        </ul>
         <em>Tech Stack:</em> C++, Arduino, DRV8835, LDR, NewPing<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>Real-time Testing: Verified sensor input handling and obstacle avoidance.</li>
-          <li>Performance: Optimized control loop for precise line following.</li>
+          <li>Real-time Testing: Verified sensor input handling and obstacle avoidance accuracy</li>
+          <li>Performance: Optimized control loop for precise and stable line following</li>
         </ul>
         <a href="https://github.com/BenedictMzizi/Autonomous-Line-Following-Robot">GitHub</a>
-        </li>
+      </li>
 
-        <li>
-          <strong>Volatility Index Trading Bot</strong><br>
-        <em>Project Overview:</em> Automated bot trading based on RSI/EMA strategies.<br>
+      <li>
+        <strong>Volatility Index Trading Bot</strong><br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Automated trading bot for VIX market using RSI and EMA strategies</li>
+          <li>Supports backtesting, risk management, and performance monitoring</li>
+          <li>Designed for autonomous trading with optimized stop loss and profit targets</li>
+        </ul>
         <em>Tech Stack:</em> Python, MetaTrader 5, Deriv DBot<br>
         <em>Tester & Technical Analysis:</em>
         <ul>
-          <li>Backtesting: Verified historical market performance against strategy rules.</li>
-          <li>Risk Management: Optimized stop loss and profit targets.</li>
-          <li>Performance Analysis: Evaluated execution speed and reliability on VIX markets.</li>
+          <li>Backtesting: Verified historical market performance against strategy rules</li>
+          <li>Risk Management: Optimized stop loss and profit target settings</li>
+          <li>Performance Analysis: Evaluated execution speed and reliability on VIX markets</li>
         </ul>
         <a href="https://github.com/BenedictMzizi/Robot1000">GitHub</a>
-        </li>
-        
-         <li>
-          <strong>Clinic Documentation Digitization</strong><br>
-          Desktop app to digitize clinic patient records.<br>
-          <em>Tech Used:</em> C#, WinForms
-          <ul>
-            <li>Modular and scalable</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/BFT-solutions">GitHub</a>
-        </li>
+      </li>
+      
+      <li>
+        <strong>Clinic Documentation Digitization</strong><br>
+        <em>Project Overview:</em>
+        <ul>
+          <li>Desktop app for digitizing clinic patient records with modular design</li>
+          <li>Provides modules for data entry, retrieval, and reporting</li>
+          <li>Designed for secure storage and easy scalability</li>
+        </ul>
+        <em>Tech Stack:</em> C#, WinForms, SQL Server<br>
+        <em>Tester & Technical Analysis:</em>
+        <ul>
+          <li>Functional Testing: Verified module functionality and database connectivity</li>
+          <li>Scalability: Designed for future expansion and modular updates</li>
+        </ul>
+        <a href="https://github.com/BenedictMzizi/BFT-solutions">GitHub</a>
+      </li>
 
-      </ul>
-    </div>
-  </section>
+    </ul>
+  </div>
+</section>
 
   <section id="skills">
     <div class="container">
