@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BDA Mzizi - Online Resume</title>
+  <title>BDA Mzizi - Online Resume & Projects</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,7 +34,7 @@
   <section id="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>Motivated and technically skilled IT graduate with a strong foundation in software development, cloud computing, networking, cybersecurity, automation, and artificial intelligence. Adept at building full-stack applications, automating workflows, integrating APIs, and implementing scalable solutions using modern development tools and platforms. Passionate about solving real-world problems through innovation, clean code, and cross-functional collaboration.</p>
+      <p>Motivated and technically skilled IT graduate with expertise in full-stack development, cloud computing, networking, cybersecurity, automation, and AI. Adept at building scalable applications, integrating APIs, and automating workflows. Passionate about solving real-world problems through innovation and clean code.</p>
     </div>
   </section>
 
@@ -50,115 +51,90 @@
       <h2>Experience</h2>
       <p><strong>Computer Technician | Software Developer | Installer (Freelance)</strong></p>
       <ul>
-        <li>Installed, configured, and troubleshot computer hardware and software</li>
-        <li>Automated manual workflows using Google Apps Script and Zapier, reducing human error and boosting operational efficiency</li>
-        <li>Developed and hosted APIs for dynamic content using RESTful design principles, deployed on AWS S3, Render, and Vercel</li>
-        <li>Built automation and AI-driven prototypes such as a volatility index trading bot (Python, MetaTrader 5) and an autonomous line-following robot (Arduino + C++)</li>
-        <li>Installation of home CCTV systems</li>
+        <li>Installed and configured hardware and software, providing troubleshooting and support</li>
+        <li>Automated workflows with Google Apps Script and Zapier to reduce errors and increase efficiency</li>
+        <li>Developed and deployed APIs and applications on AWS, Render, and Vercel</li>
+        <li>Built prototypes including a volatility index trading bot (Python, MT5) and a line-following robot (Arduino + C++)</li>
+        <li>Installed CCTV systems for small businesses and residences</li>
       </ul>
     </div>
   </section>
 
   <section id="projects">
     <div class="container">
-      <h2>Projects</h2>
-      <p>GitHub Repo: <a href="https://github.com/BenedictMzizi">GitHub</a></p>
+      <h2>Projects & Technical Analysis</h2>
       <ul>
         <li>
           <strong>Online Resume</strong><br>
           A responsive portfolio and professional resume website hosted on GitHub Pages.<br>
-          <em>Tech Used:</em> HTML5, CSS3, GitHub Pages
-          <ul>
-            <li>Showcases projects, certifications, and career goals</li>
-            <li>Responsive layout for all device types</li>
-            <li>Includes downloadable resume and project links</li>
-          </ul>
+          <em>Tech Used:</em> HTML5, CSS3, GitHub Pages<br>
+          <em>Tester & Analysis:</em> Verified responsive layout, project links, and download functionality.
           <a href="https://benedictmzizi.github.io/OnlineResume">Live Resume</a>
         </li>
 
-        <li>
-          <strong>JungleShop</strong><br>
-          A scalable full-stack e-commerce platform with secure admin functionality and payment integration.<br>
-          <em>Tech Used:</em> React, Node.js, Express.js, MySQL (AWS RDS), AWS EC2, S3, Stripe, Nginx, PM2, GitHub Actions, Tailwind CSS, JWT
-          <ul>
-            <li>Frontend built with React and Tailwind CSS</li>
-            <li>Backend with Node.js + Express and admin-protected CRUD</li>
-            <li>Media storage via AWS S3; deployed on EC2 with PM2 + Nginx</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/jungleShop">GitHub</a>
-          <a href="https://13-61-48-159.sslip.io/api">Backend API</a>
-          <a href="http://jungleshop-frontend.s3-website.eu-north-1.amazonaws.com">Live Demo</a>
-        </li>
+```
+    <li>
+      <strong>JungleShop</strong><br>
+      Scalable full-stack e-commerce platform with secure admin functionality and payment integration.<br>
+      <em>Tech Used:</em> React, Node.js, Express.js, MySQL (AWS RDS), AWS EC2, S3, Stripe, Nginx, PM2, GitHub Actions, Tailwind CSS, JWT<br>
+      <em>Tester & Analysis:</em> Functional testing of cart and checkout flows, integration testing of Stripe payments, UI/UX responsiveness, security route validation, performance optimization.
+      <a href="https://github.com/BenedictMzizi/jungleShop">GitHub</a>
+      <a href="http://jungleshop-frontend.s3-website.eu-north-1.amazonaws.com">Live Demo</a>
+    </li>
 
-        <li>
-          <strong>Flag Explorer App</strong><br>
-          A full-stack app displaying country flags and details via a REST API.<br>
-          <em>Tech Used:</em> React, Express, Node.js, Render, Vercel, GitHub Actions
-          <ul>
-            <li>Custom API + frontend grid layout</li>
-            <li>CI/CD with GitHub Actions</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/FlagExplorerApp">GitHub</a>
-          <a href="https://flagexplorerapp.onrender.com/countries">Backend API</a>
-          <a href="https://flag-explorer-app.vercel.app">Live Demo</a>
-        </li>
+    <li>
+      <strong>Flag Explorer App</strong><br>
+      Displays country flags and details via REST API.<br>
+      <em>Tech Used:</em> React, Node.js, Express, Render, Vercel, GitHub Actions<br>
+      <em>Tester & Analysis:</em> API testing, error handling, search/filter efficiency, asynchronous state management.
+      <a href="https://github.com/BenedictMzizi/FlagExplorerApp">GitHub</a>
+      <a href="https://flag-explorer-app.vercel.app">Live Demo</a>
+    </li>
 
-        <li>
-          <strong>Team Registration App</strong><br>
-          Full-stack app for team sign-up and admin approval.<br>
-          <em>Tech Used:</em> React, Supabase, Vercel
-          <ul>
-            <li>Admin-auth via Supabase</li>
-            <li>Read/write policies with row-level security</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/TeamRegistrationApp">GitHub</a>
-          <a href="https://team-registration-app.vercel.app">Live Demo</a>
-        </li>
+    <li>
+      <strong>Team Registration App</strong><br>
+      Manages team registrations with admin approval.<br>
+      <em>Tech Used:</em> React, Supabase, Vercel<br>
+      <em>Tester & Analysis:</em> Functional testing, role-based access, mobile/desktop usability, enhanced workflow compared to basic registration automation.
+      <a href="https://github.com/BenedictMzizi/TeamRegistrationApp">GitHub</a>
+      <a href="https://team-registration-app.vercel.app">Live Demo</a>
+    </li>
 
-        <li>
-          <strong>Clinic Documentation Digitization</strong><br>
-          Desktop app to digitize clinic patient records.<br>
-          <em>Tech Used:</em> C#, WinForms, SQL Server
-          <ul>
-            <li>Modular and scalable</li>
-            <li>Connected to SQL Server DB</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/BFT-solutions">GitHub</a>
-        </li>
+    <li>
+      <strong>Registration Automation</strong><br>
+      Automated workflow for school registration.<br>
+      <em>Tech Used:</em> Google Apps Script, Sheets, Mailjet, Zapier<br>
+      <em>Tester & Analysis:</em> Verified triggers, error handling, email automation, limited scalability compared to Team Registration App.
+      <a href="https://github.com/BenedictMzizi/RegistrationAutomation">GitHub</a>
+    </li>
 
-        <li>
-          <strong>Registration Automation</strong><br>
-          Workflow automation for school registration.<br>
-          <em>Tech Used:</em> Google Apps Script, Sheets, Mailjet, Zapier
-          <ul>
-            <li>Email confirmations via Apps Script + Mailjet</li>
-            <li>Zapier for error handling</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/RegistrationAutomation">GitHub</a>
-          <a href="https://benedictmzizi.github.io/RegistrationAutomation">Live Demo</a>
-        </li>
+    <li>
+      <strong>Clinic Documentation Digitization</strong><br>
+      Desktop app to digitize patient records.<br>
+      <em>Tech Used:</em> C#, WinForms, SQL Server<br>
+      <em>Tester & Analysis:</em> Verified modular design, DB connectivity, and scalability.
+      <a href="https://github.com/BenedictMzizi/BFT-solutions">GitHub</a>
+    </li>
 
-        <li>
-          <strong>Autonomous Line-Following Robot</strong><br>
-          DIY robot that follows lines and avoids objects.<br>
-          <em>Tech Used:</em> C++, Arduino, DRV8835, LDR, NewPing
-          <ul>
-            <li>Real-time hardware control using sensors</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/Autonomous-Line-Following-Robot">GitHub</a>
-        </li>
+    <li>
+      <strong>Autonomous Line-Following Robot</strong><br>
+      DIY robot that follows lines and avoids obstacles.<br>
+      <em>Tech Used:</em> C++, Arduino, DRV8835, LDR, NewPing<br>
+      <em>Tester & Analysis:</em> Real-time sensor control testing, obstacle avoidance verification.
+      <a href="https://github.com/BenedictMzizi/Autonomous-Line-Following-Robot">GitHub</a>
+    </li>
 
-        <li>
-          <strong>Volatility Index Trading Bot</strong><br>
-          Automated bot that trades based on RSI/EMA.<br>
-          <em>Tech Used:</em> Python, MetaTrader 5, Deriv DBot
-          <ul>
-            <li>Backtested and optimized for VIX market</li>
-          </ul>
-          <a href="https://github.com/BenedictMzizi/Robot1000">GitHub</a>
-        </li>
-      </ul>
-    </div>
+    <li>
+      <strong>Volatility Index Trading Bot</strong><br>
+      Automated bot trading based on RSI/EMA strategies.<br>
+      <em>Tech Used:</em> Python, MetaTrader 5, Deriv DBot<br>
+      <em>Tester & Analysis:</em> Backtesting, market performance analysis, risk/reward evaluation.
+      <a href="https://github.com/BenedictMzizi/Robot1000">GitHub</a>
+    </li>
+  </ul>
+</div>
+```
+
   </section>
 
   <section id="skills">
