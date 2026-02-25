@@ -168,6 +168,49 @@
     <ul>
 
       <li>
+  <strong>Full-Stack Hospital Management System (Clinical System)</strong>
+  
+  <details>
+    <summary>Project Overview</summary>
+      <ul>
+        <li>Designed and developed a full-stack multi-role Hospital Management System to streamline clinical operations including patient registration, visits, prescriptions, billing, pharmacy dispensing, and administrative control.</li>
+        <li>Implemented secure authentication and role-based access control for Admin, Doctor, Pharmacist, Receptionist, Billing, and IT roles.</li>
+        <li>Built structured workflows for patient lifecycle management: registration → consultation → prescription → billing → pharmacy queue.</li>
+        <li>Implemented Row-Level Security (RLS) policies to enforce practice-level data isolation and prevent unauthorized access.</li>
+        <li>Designed audit logging mechanisms to track system actions (e.g., prescription dispensing, billing updates) for accountability and traceability.</li>
+        <li>Developed responsive dashboards tailored to user roles, improving operational visibility and workflow efficiency.</li>
+        <li>Structured the database schema with relational integrity, foreign keys, constraints, and enum-based role management.</li>
+        <li>Deployed production-ready application using Vercel with Supabase backend infrastructure.</li>
+      </ul>
+  </details>
+
+  <details>
+    <summary>Tech Stack</summary>
+      <ul>
+        <li>Frontend: React (Functional Components, Hooks, React Router)</li>
+        <li>Backend: Supabase (PostgreSQL, Authentication, Row-Level Security)</li>
+        <li>Database: PostgreSQL with constraints, functions, triggers, and policy enforcement</li>
+        <li>Security: Role-Based Access Control (RBAC), RLS policies, practice-level data isolation</li>
+        <li>Deployment: Vercel (Frontend hosting), GitHub (Version Control)</li>
+      </ul>
+  </details>
+
+  <details>
+    <summary>Testing & Technical Analysis</summary>
+      <ul>
+        <li>Access Control Testing: Validated RLS enforcement across different user roles to ensure data segregation.</li>
+        <li>Workflow Testing: Verified patient-to-pharmacy lifecycle, prescription creation, billing updates, and queue transitions.</li>
+        <li>Database Integrity Testing: Confirmed foreign key relationships, NOT NULL constraints, and enum validation.</li>
+        <li>Security Review: Ensured Supabase auth integration correctly binds user identity to practice-specific data.</li>
+        <li>Responsive UI Testing: Verified usability across desktop and mobile devices.</li>
+      </ul>
+  </details>
+
+  <a href="https://github.com/BenedictMzizi/clinical-system">GitHub</a>
+  <a href="https://clinical-system-orpin.vercel.app">Live System</a>
+</li>
+
+      <li>
         <strong>Doctor’s professional medical website (Dr HM Modiba-Mlaza)</strong>
         <details>
           <summary>Project Overview</summary>
