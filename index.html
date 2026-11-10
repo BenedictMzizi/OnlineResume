@@ -1,614 +1,1069 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BDA Mzizi - Online Resume</title>
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Benedict de Almeida Mzizi — Full-Stack Software Developer specialising in backend engineering, cloud infrastructure and modern web applications.">
+  <title>Benedict Mzizi | Full-Stack Software Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <div class="container">
-      <img src="img/me.jpg" alt="Benedict Mzizi" loading="lazy">
-      <h1>Benedict de Almeida Mzizi</h1>
-      <p>Cloud & DevOps Engineer | Full-Stack Systems Developer | Automation & Infrastructure</p>
-    </div>
-  </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#academics">Academics</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#core-highlight">Core Highlight<a/></a><li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#aspirations">Aspirations</a></li>
-      <li><a href="#references">References</a></li>
-      <li><a href="#documents">Documents</a></li>
-      <li><a href="#contacts">Contacts</a></li>
-    </ul>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="brand">BM<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </div>
+    </div>
   </nav>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-Full-Stack Software Developer experienced in designing, building, deploying and maintaining web applications and 
-business management systems. Develops modern frontend applications and backend services using React, Angular, 
-TypeScript, Java, C#, Spring Boot, ASP.NET Core and relational databases. Experienced in translating business 
-requirements into practical software, designing database schemas, building REST APIs, implementing authentication 
-and role-based access control, integrating third-party services, and troubleshooting cloud-hosted applications. 
-Comfortable contributing across the software development lifecycle, from requirements and architecture through 
-implementation, testing and deployment.
-</p>
-    </div>
-  </section>
+  <main>
 
-  <section id="academics">
-  <div class="container">
-    <h2>Academics</h2>
+    <!-- Hero -->
+    <header id="home" class="hero">
+      <div class="container hero-content">
 
-      <summary><strong>North-West University – Bachelor of Science in Information Technology</strong></summary>
-    <details>
-      <summary><strong>National Senior Certificate (Matric) – Springs Boys High School</strong></summary>
-      <ul>
-        <li>Mathematics</li>
-        <li>Accounting</li>
-        <li>Business Studies</li>
-        <li>Life Sciences</li>
-        <li>English Home Language</li>
-        <li>Afrikaans First Additional Language</li>
-        <li>Life Orientation</li>
-      </ul>
-    </details>
+        <div class="hero-text">
+          <span class="eyebrow">
+            FULL-STACK SOFTWARE DEVELOPER
+          </span>
 
-  </div>
-</section>
+          <h1>
+            Benedict de Almeida
+            <span>Mzizi</span>
+          </h1>
 
+          <h2>
+            Building reliable software systems,
+            from frontend experiences to backend infrastructure.
+          </h2>
 
+          <p>
+            Software developer focused on designing and building
+            practical, scalable applications. Experienced across
+            frontend development, backend engineering, database
+            architecture, authentication, cloud deployment and
+            infrastructure management.
+          </p>
 
-  <section id="experience">
-    <div class="container">
-      <h2>Experience</h2>
-      
-      <p><strong>Website Developer & Administrator – BE Bellair Medical Centre (Jan 2025 – Dec 2025)</strong></p>
-     <ul>
-      <li>Developed, deployed, and maintained licensed medical practitioners website.</li>
-      <li>Administered content, updates, and integrations.</li>
-      <li>Improved patient engagement through digital access tools.</li>      
-     </ul>
-      
-      <p><strong>Administrative Assistant – Board Corner Enterprises (Dec 2013 – Jan 2014)</strong></p>
-     <ul>
-      <li>Provided office administration and documentation support.</li>     
-     </ul>
-      
-      <p><strong>Delivery & Administrative Assistant – Twisted Taste (Jun 2024 – Dec 2024)</strong></p>
-     <ul>
-      <li>Managed delivery of goods and order coordination.</li>
-      <li>Performed administrative duties and customer communication.</li>         
-     </ul>
-      
-    </div>
-  </section>
+          <div class="hero-tags">
+            <span>React</span>
+            <span>Angular</span>
+            <span>Java</span>
+            <span>C# / .NET</span>
+            <span>PostgreSQL</span>
+            <span>AWS</span>
+          </div>
 
-<section id="core-highlights">
-  <div class="container">
-    <h2>Technical Highlights</h2>
-    <ul>
-      <li>Designed and deployed multi-role Hospital Management System with Row-Level Security and audit logging.</li>
-      <li>Architected AWS-hosted e-commerce system with EC2, RDS, S3, Nginx, SSL, and CI/CD pipelines.</li>
-      <li>Implemented real-time Supabase applications with role-based access control and database policy enforcement.</li>
-      <li>Configured Linux production servers with reverse proxy and automated deployments.</li>
-    </ul>
-  </div>
-</section>
-  
-<section id="projects">
-  <div class="container">
-    <h2>Projects & Technical Analysis</h2>
-    <ul>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore Projects
+            </a>
 
-      <li>
-  <strong>Hospital Management System (Clinical System)</strong>
-  
-  <details>
-    <summary>Project Overview</summary>
-      <ul>
-        <li>Designed and developed a full-stack multi-role Hospital Management System to streamline clinical operations including patient registration, visits, prescriptions, billing, pharmacy dispensing, and administrative control.</li>
-        <li>• Platform architecture: Designed a multi-facility system intended to support separate facility staff, patient records, wards and operational data. </li>
-        <li>• Patient and reception workflows: Built patient record management, appointment scheduling, arrival lookup and reception workflows.</li>
-        <li>• Clinical operations: Implemented role-specific nursing and doctor workflows, including vitals recording and consultations. </li>
-        <li>• Ward and admissions management: Developed ward and bed management workflows covering bed allocation, admissions, transfers, discharges and occupancy tracking. </li>
-        <li>• Diagnostics and pharmacy: Built digital diagnostic request workflows spanning radiology and laboratory operations, alongside pharmacy workflows.</li>
-        <li>• Billing and payments: Implemented billing, payment recording, receipts and refund workflows, including controlled refund processing and idempotent payment handling. </li>
-        <li>• Security and data integrity: Implemented role-based permissions and facility-scoped access, supported by 
-relational data structures, SQL workflows and auditability considerations. </li>
-      </ul>
-  </details>
+            <a href="doc/Benedict_Mzizi_Resume.pdf"
+               class="btn btn-outline"
+               target="_blank"
+               rel="noopener noreferrer">
+              View Resume
+            </a>
+          </div>
 
-  <details>
-    <summary>Tech Stack</summary>
-      <ul>
-        <li>React</li>
-        <li>JavaScript</li>
-        <li>Tailwind CSS</li>
-        <li>Supabase</li>
-        <li>PostgreSQL</li>
-      </ul>
-  </details>
+          <div class="social-links">
+            <a href="https://github.com/BenedictMzizi"
+               target="_blank"
+               rel="noopener noreferrer">GitHub ↗</a>
 
-  <details>
-    <summary>Testing & Technical Analysis</summary>
-      <ul>
-        <li>Access Control Testing: Validated RLS enforcement across different user roles to ensure data segregation.</li>
-        <li>Workflow Testing: Verified patient-to-pharmacy lifecycle, prescription creation, billing updates, and queue transitions.</li>
-        <li>Database Integrity Testing: Confirmed foreign key relationships, NOT NULL constraints, and enum validation.</li>
-        <li>Security Review: Ensured Supabase auth integration correctly binds user identity to practice-specific data.</li>
-        <li>Responsive UI Testing: Verified usability across desktop and mobile devices.</li>
-      </ul>
-  </details>
+            <a href="https://www.linkedin.com/in/benedict-mzizi"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn ↗</a>
 
-  <a href="https://github.com/BenedictMzizi/clinical-system">GitHub</a>
-  <a href="https://clinical-system-orpin.vercel.app">Live Demo</a>
-</li>
-      
-      <li>
-        <strong>JungleShop</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>• Application modernisation: Evolving an existing e-commerce application toward a modular Angular front end and ASP.NET Core backend architecture.</li>
-            <li>• Shopping experience: Product catalogue with search, filtering and pagination, plus persistent shopping-cart functionality. </li>
-            <li>• Customer identity: Integrated Neon Better Auth for customer registration, login and email verification./li>
-            <li>• Backend and data: Developing RESTful services in C#/.NET 10 with Entity Framework Core and Neon PostgreSQL for product and order data. </li>
-            <li>• Administration and integrity: Building protected product-management functionality and using integer minor currency units to avoid floating-point precision issues. </li>
-            </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>Angular 19+</li>
-            <li>TypeScript</li>
-            <li>C#</li>
-            <li>ASP.NET Core (.NET 10)</li>
-            <li>Entity Framework Core</li>
-            <li> Neon PostgreSQL</li>
-            <li>Neon Better Auth</li>
-            <li>AWS S3</li>
-            <li>REST APIs</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>Backend API connects frontend with database and external services</li>
-            <li>Endpoints for products, users, orders, and payments</li>
-            <li>GET /api/products retrieves products; POST /api/orders saves orders and triggers Stripe payment</li>
-            <li>API-first design keeps frontend modular while backend handles business logic and integrations</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Functional Testing: Cart persistence, checkout, admin CRUD</li>
-            <li>Integration Testing: Stripe flow, email notifications</li>
-            <li>UI/UX Analysis: Layout optimization, responsive design</li>
-            <li>Security: Admin route protection, input validation</li>
-            <li>Performance: Page load optimization, lazy loading images</li>
-            <li>Strengthened troubleshooting skills across networks, server logs, and infrastructure failures.</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/jungleShop">GitHub</a>
-        <a href="https://jungle-shop.vercel.app/">Live Demo</a>
-      </li>
+            <a href="mailto:bennydrizi@gmail.com">Email ↗</a>
+          </div>
+        </div>
 
+        <div class="hero-image">
+          <div class="image-frame">
+            <img src="img/me.jpg"
+                 alt="Benedict de Almeida Mzizi"
+                 fetchpriority="high">
+          </div>
 
-      <li>
-        <strong>Doctor’s professional medical website (Dr HM Modiba-Mlaza)</strong>
-        <details>
-          <summary>Project Overview</summary>
-            <ul>
-                <li>For a licensed healthcare professional. I designed and developed a professional, responsive medical practice website to present the doctor’s profile, services, and patient information in a clear, trustworthy, and patient-friendly manner.</li>
-                <li>Implemented a clean, accessible layout with structured sections including Home, About the Doctor, Services, Women’s Health, and Contact.</li>
-                <li>Structured content to support both walk-in patients and appointment-based services, with clear guidance for specialised procedures such as sonar examinations.</li>
-                <li>Integrated Google Maps embedding to improve practice location visibility and simplify patient navigation.</li>
-                <li>Implemented WhatsApp click-to-chat integration to streamline patient enquiries and improve accessibility.</li>
-                <li>Applied healthcare-appropriate UI/UX principles using calm colour schemes, readable typography, and intuitive navigation.</li>
-                <li>Optimised the site for mobile and desktop use, ensuring responsive and accessibility-conscious design across devices.</li>
-                <li>Structured the project for maintainability and future scalability, allowing additional pages, services, or integrations to be added easily.</li>
-            </ul>
-          </details>
-          <details>
-            <summary>Tech Stack</summary>
-             <ul>
-             <li>HTML5 and CSS3 for semantic structure, styling, and responsive layout</li>
-             <li>JavaScript for navigation behaviour, interactive elements, and third-party integrations</li>
-             <li>Google Maps Embed API for location display</li>
-             <li>WhatsApp click-to-chat integration for direct patient communication</li>
-             </ul>
-           </details>
-           <details>
-             <summary>Testing & Technical Analysis</summary>
+          <div class="image-caption">
+            <span class="status-dot"></span>
+            Software Engineering & Technology
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">INTRODUCTION</span>
+          <h2>About Me</h2>
+          <p>Engineering solutions through software, systems and technology.</p>
+        </div>
+
+        <div class="about-layout">
+
+          <div class="about-main">
+            <p>
+              I am a Full-Stack Software Developer with experience
+              designing, developing and deploying web applications
+              and business management systems.
+            </p>
+
+            <p>
+              My work spans modern frontend frameworks, backend
+              services, relational databases, authentication systems
+              and cloud infrastructure. I work with technologies
+              including React, Angular, TypeScript, Java, Spring Boot,
+              C#, ASP.NET Core and PostgreSQL.
+            </p>
+
+            <p>
+              I enjoy working across the entire software development
+              lifecycle — translating business requirements into
+              functional systems, designing application architecture,
+              implementing APIs, managing data integrity and
+              troubleshooting production environments.
+            </p>
+
+            <p>
+              My approach combines practical software engineering
+              with an understanding of infrastructure, security,
+              automation and the operational requirements of
+              real-world applications.
+            </p>
+          </div>
+
+          <aside class="about-focus">
+            <h3>Engineering Focus</h3>
+
+            <div class="focus-item">
+              <span>01</span>
+              <div>
+                <strong>Application Engineering</strong>
+                <p>Full-stack development and modular application architecture.</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <span>02</span>
+              <div>
+                <strong>Backend & Data</strong>
+                <p>REST APIs, authentication, database design and business logic.</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <span>03</span>
+              <div>
+                <strong>Cloud & Infrastructure</strong>
+                <p>Server administration, deployment, automation and system reliability.</p>
+              </div>
+            </div>
+
+          </aside>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Technical Highlights -->
+    <section class="section section-alt">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">CAPABILITIES</span>
+          <h2>Technical Highlights</h2>
+          <p>Practical engineering experience across application and infrastructure layers.</p>
+        </div>
+
+        <div class="highlight-grid">
+
+          <article class="highlight-card">
+            <span class="highlight-number">01</span>
+            <h3>Enterprise Applications</h3>
+            <p>
+              Designed and developed a multi-facility Hospital
+              Workflow Management System with clinical, administrative
+              and financial workflows.
+            </p>
+          </article>
+
+          <article class="highlight-card">
+            <span class="highlight-number">02</span>
+            <h3>Backend Engineering</h3>
+            <p>
+              Built and integrated RESTful services, authentication,
+              role-based permissions, relational database structures
+              and application business logic.
+            </p>
+          </article>
+
+          <article class="highlight-card">
+            <span class="highlight-number">03</span>
+            <h3>Cloud Infrastructure</h3>
+            <p>
+              Configured and deployed cloud-hosted applications using
+              AWS services, Linux servers, Nginx, SSL/TLS and
+              automated deployment workflows.
+            </p>
+          </article>
+
+          <article class="highlight-card">
+            <span class="highlight-number">04</span>
+            <h3>Application Security</h3>
+            <p>
+              Worked with JWT authentication, Spring Security,
+              role-based access control, Supabase Row-Level Security
+              and database-level permissions.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">PROFESSIONAL BACKGROUND</span>
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+
+          <article class="timeline-item">
+            <div class="timeline-date">JAN 2025 – DEC 2025</div>
+
+            <div class="timeline-content">
+              <h3>Website Developer & Administrator</h3>
+              <h4>BE Bellair Medical Centre</h4>
+
+              <p>
+                Responsible for the development and administration
+                of a professional medical practice website, supporting
+                its digital presence and patient-facing information.
+              </p>
+
               <ul>
-                 <li>Functional Testing: Verified navigation, Google Maps rendering, WhatsApp chat functionality, contact details, and responsive behaviour across screen sizes.</li>
-                 <li>UI/UX Analysis: Ensured a patient-centric design with clear information hierarchy and accessibility considerations.</li>
-                 <li>Performance: Optimised assets and layout for fast load times on mobile and low-bandwidth networks.</li>
-                 <li>Compliance Awareness: Reviewed content structure and wording to align with professional medical communication standards.</li>
+                <li>Developed, deployed and maintained the medical practice website.</li>
+                <li>Managed website content, updates and third-party integrations.</li>
+                <li>Improved accessibility of practice information and digital patient engagement.</li>
               </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">JUN 2024 – DEC 2024</div>
+
+            <div class="timeline-content">
+              <h3>Delivery & Administrative Assistant</h3>
+              <h4>Twisted Taste</h4>
+
+              <p>
+                Supported day-to-day operations through delivery
+                coordination, order management and administrative
+                responsibilities.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">DEC 2013 – JAN 2014</div>
+
+            <div class="timeline-content">
+              <h3>Administrative Assistant</h3>
+              <h4>Board Corner Enterprises</h4>
+
+              <p>
+                Provided administrative and documentation support
+                within daily business operations.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">SELECTED ENGINEERING WORK</span>
+          <h2>Projects</h2>
+          <p>
+            A selection of software applications, business systems
+            and technical implementations.
+          </p>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- HWMS -->
+          <article class="project-card featured-project">
+
+            <div class="project-top">
+              <span class="project-type">HEALTHCARE TECHNOLOGY</span>
+              <span class="project-status">Featured</span>
+            </div>
+
+            <h3>Hospital Workflow Management System</h3>
+
+            <p class="project-description">
+              A multi-facility healthcare management platform
+              designed to digitise clinical, administrative and
+              financial operations across clinics and hospitals.
+            </p>
+
+            <div class="project-features">
+              <span>Patient Management</span>
+              <span>Clinical Workflows</span>
+              <span>Wards & Admissions</span>
+              <span>Diagnostics</span>
+              <span>Pharmacy</span>
+              <span>Billing & Payments</span>
+              <span>Role-Based Access</span>
+            </div>
+
+            <details>
+              <summary>Technical Architecture & Implementation</summary>
+
+              <div class="details-content">
+                <p>
+                  Designed a multi-facility application architecture
+                  supporting separate facility operations, staff,
+                  patient records and operational data.
+                </p>
+
+                <ul>
+                  <li>React-based frontend with modular role-specific workflows.</li>
+                  <li>PostgreSQL relational database and Supabase integration.</li>
+                  <li>Facility-scoped data access and permission enforcement.</li>
+                  <li>Patient registration, appointments, arrival lookup and clinical records.</li>
+                  <li>Nursing observations, doctor consultations and prescriptions.</li>
+                  <li>Ward, bed, admission, transfer and discharge management.</li>
+                  <li>Laboratory and radiology diagnostic workflows.</li>
+                  <li>Pharmacy and medication dispensing workflows.</li>
+                  <li>Billing, payment recording, receipts and controlled refund processing.</li>
+                  <li>Auditability, database constraints and transactional payment handling.</li>
+                </ul>
+              </div>
             </details>
-             <a href="https://github.com/BenedictMzizi/drModibaWebpage">GitHub</a>
-             <a href="https://benedictmzizi.github.io/drModibaWebpage">Live Demo</a>
-        </li>
-      
-      <li>
-        <strong>Flag Explorer App</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Developed a React frontend to fetch and render country data dynamically, with a clean Tech grid-based UI and the backend to Render and the frontend to Vercel, enabling scalable and live production hosting. Tested both environments for consistency.</li>
-            <li>Integrated environment variables for seamless API routing between frontend and backend.</li>
-            <li>Implemented CI/CD workflows with GitHub Actions to trigger automatic deployments on code changes</li>
-            <li>Structured project using a clean monorepo layout with separate client and backend root directories for easier deployment and collaboration.</li>
-            <li>Supports search, filter, and detailed country info</li>
-            <li>Designed for educational purposes and interactive exploration</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>React frontend</li>
-            <li>Node.js + Express backend API</li>
-            <li>Render for backend hosting, Vercel for frontend</li>
-            <li>GitHub Actions for CI/CD automation</li>
-            <li>JavaScript (ES6)</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>REST API fetches country data from external REST Countries API</li>
-            <li>Backend bridges frontend and external API</li>
-            <li>Frontend requests country info; backend formats JSON response</li>
-            <li>Separation enables cleaner code, better error handling, scalability</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>API Testing: Endpoint verification, response consistency</li>
-            <li>Edge Cases: Handled missing/malformed data, network errors</li>
-            <li>UI/UX: Search/filter functionality responsiveness</li>
-            <li>Tech Analysis: Asynchronous API calls, state management</li>
-            <li>Performed API testing, endpoint validation, error-state testing, and data accuracy checks.</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/FlagExplorerApp">GitHub</a>
-        <a href="https://flag-explorer-app-one.vercel.app/">Live Demo</a>
-      </li>
 
-      <li>
-        <strong>Team Registration App</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Developed using Create React App with Supabase as the backend for database storage and authentication.</li>
-            <li>Implemented conditional rendering to separate user and admin views dynamically and Designed a clean and responsive interface for both registration and admin login dashboards.</li>
-            <li>Led system implementation tasks such as authentication setup, access control, and database initialization and Deployed live on Vercel with continuous integration via GitHubs</li>
-            <li>Automated deployment pipelines via Vercel; monitored build logs and resolved deployment conflicts.</li>
-            <li>Real-time updates for approval/rejection and notifications</li>
-            <li>Designed for multiple teams and participants</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>React frontend</li>
-            <li>Supabase backend (database, authentication, real-time updates)</li>
-            <li>Vercel frontend deployment</li>
-            <li>JavaScript/TypeScript logic</li>
-            <li>Row-Level Security for admin access</li>
-            <li>Email integration for notifications</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>Supabase API provides endpoints for creating registrations, updating approval status, retrieving approved/rejected users</li>
-            <li>PUT requests update database; frontend reflects changes instantly</li>
-            <li>Offers more control and scalability than no-code automation workflows</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Functional Testing: Registration, approval/rejection, email notifications</li>
-            <li>Security & Access Control: Role-based access testing</li>
-            <li>Usability: Optimized dashboard for desktop/mobile</li>
-            <li>Comparative Analysis: Chosen over basic automation for scalability</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/TeamRegistrationApp">GitHub</a>
-        <a href="https://team-registration-app.vercel.app">Live Demo</a>
-      </li>
+            <div class="tech-stack">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>Tailwind CSS</span>
+              <span>Supabase</span>
+              <span>PostgreSQL</span>
+              <span>SQL</span>
+            </div>
 
-      <li>
-        <strong>Online Resume</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Designed and developed a responsive, single-page personal resume site using HTML, CSS, and JavaScript with a clean and accessible layout.</li>
-            <li>Automated updates via GitHub workflows for quick deployment</li>
-            <li>Embedded downloadable resume documents and certificates using a public documents/ directory structure</li>
-            <li>Integrated links to project repositories, certifications, and contact information to streamline application processes.</li>
-            <li>Deployed the site live using GitHub Pages, ensuring easy public access across devices and browsers.</li>
-            <li>Structured the project for scalability and simplicity, with clear separation of content and presentation logic.</li>
-            <li>Designed for mobile and desktop accessibility</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>HTML5, CSS3, basic JavaScript</li>
-            <li>GitHub Pages for hosting and deployment</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Functional Testing: Verified responsive layout, navigation, downloadable resume, and project links</li>
-            <li>UI/UX Analysis: Mobile-friendly layout and accessibility</li>
-            <li>Performance: Optimized images and load times</li>
-            <li>Security: Basic input validation in contact form</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/OnlineResume">GitHub</a>
-        <a href="https://benedictmzizi.github.io/OnlineResume">Live Resume</a>
-      </li>
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/clinical-system"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://clinical-system-orpin.vercel.app"
+                 target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
 
+          </article>
 
-      
-      <li>
-        <strong>Registration Automation</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Automates school registration workflow with form submissions and email confirmations</li>
-            <li>Integrates Google Sheets, Mailjet, and Zapier for automation</li>
-            <li>Reduces manual effort and ensures timely notifications</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>Google Apps Script</li>
-            <li>Google Sheets for backend data storage</li>
-            <li>Mailjet for confirmation emails</li>
-            <li>Zapier for workflow automation and error handling</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>Zapier connects Google Sheets API to log form data</li>
-            <li>Triggers Mailjet API to send confirmation emails automatically</li>
-            <li>Automation ensures smooth integration without manual intervention</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Automation Testing: Verified submission triggers and email dispatch</li>
-            <li>Designed and tested conditional logic flows, error-handling, retries, and notification triggers</li>
-            <li>Edge Case Handling: Checked duplicates and failed emails</li>
-            <li>Limitations: Lacks admin approval and scalability compared to Team Registration App</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/RegistrationAutomation">GitHub</a>
-      </li>
+          <!-- JungleShop -->
+          <article class="project-card featured-project">
 
-      
-      <li>
-        <strong>Autonomous Line-Following Robot</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Coded multi-sensor logic for forward motion, left/right turns, and black tape-based stopping behavior</li>
-            <li>Programmed real-time automation logic with tuning, calibration, and testing cycles</li>
-            <li>Completed hardware troubleshooting (wiring, voltage, sensors) and iterative quality verification</li>
-            <li>Uses real-time sensor input to navigate paths</li>
-            <li>Designed for educational robotics and automation experimentation</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>C++ programming</li>
-            <li>Arduino microcontroller</li>
-            <li>DRV8835 motor driver, LDR sensors, NewPing ultrasonic sensor</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>No external API; sensor input handled directly via Arduino code</li>
-            <li>Custom functions interpret sensor readings for motor control</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Hardware Testing: Motor and sensor calibration</li>
-            <li>Edge Cases: Detects sharp turns and obstacles</li>
-            <li>Performance Analysis: Real-time response to sensor changes</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/Autonomous-Line-Following-Robot">GitHub</a>
-      </li>
+            <div class="project-top">
+              <span class="project-type">E-COMMERCE ENGINEERING</span>
+              <span class="project-status">In Development</span>
+            </div>
 
-      
-      <li>
-        <strong>Volatility Index Trading Bot</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Automated trading bot for the VIX market using RSI and EMA strategies</li>
-            <li>Backtested and optimized for real-time trading performance</li>
-            <li>Provides decision-making automation and risk management</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>Python programming</li>
-            <li>MetaTrader 5 for trading execution</li>
-            <li>Deriv DBot integration</li>
-            <li>Pandas, NumPy for data analysis</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>Uses Deriv API to place and monitor trades</li>
-            <li>Python scripts interact with MetaTrader 5 terminal API for technical analysis and execution</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Backtesting: Verified strategy accuracy on historical data</li>
-            <li>Simulation: Checked response to live market conditions</li>
-            <li>Risk Analysis: Stop-loss and profit target functionality tested</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/Robot1000">GitHub</a>
-      </li>
+            <h3>JungleShop</h3>
 
-      
-      <li>
-        <strong>Clinic Documentation Digitization</strong>
-        <details>
-          <summary>Project Overview</summary>
-          <ul>
-            <li>Desktop application for digitizing clinic patient records</li>
-            <li>Provides modular and scalable record management system</li>
-            <li>Designed to replace paper-based documentation with a digital solution</li>
-            <li>Gathered requirements, planned system structure, built UI forms, and implemented CRUD logic</li>
-            <li>Provides modular and scalable record management system</li>
-            <li>Built and maintained the system architecture with Visual Studio.</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tech Stack</summary>
-          <ul>
-            <li>C# with WinForms for GUI</li>
-            <li>SQL Server for database management</li>
-            <li>Entity Framework for data access</li>
-          </ul>
-        </details>
-        <details>
-          <summary>API Explanation</summary>
-          <ul>
-            <li>Internal database API handles CRUD operations for patient records</li>
-            <li>No external API; backend communicates directly with SQL Server</li>
-          </ul>
-        </details>
-        <details>
-          <summary>Tester & Technical Analysis</summary>
-          <ul>
-            <li>Functional Testing: Add, update, search, and delete patient records</li>
-            <li>Database Performance: Ensured fast queries and indexing</li>
-            <li>Tested all modules: data entry, search, updates, deletions, and validation rules.</li>
-            <li>Usability: Simple GUI for clinic staff</li>
-            <li>Data Integrity: Validations to prevent duplicate or incorrect entries</li>
-          </ul>
-        </details>
-        <a href="https://github.com/BenedictMzizi/BFT-solutions">GitHub</a>
-      </li>
+            <p class="project-description">
+              Modernisation of an e-commerce platform, evolving
+              its application architecture toward a modular Angular
+              frontend and dedicated ASP.NET Core backend.
+            </p>
 
-    </ul>
-  </div>
-</section>
+            <div class="project-features">
+              <span>Product Catalogue</span>
+              <span>Shopping Cart</span>
+              <span>Customer Authentication</span>
+              <span>Order Management</span>
+              <span>Backend APIs</span>
+            </div>
 
-  <section id="skills">
+            <details>
+              <summary>Technical Architecture & Implementation</summary>
+
+              <div class="details-content">
+                <ul>
+                  <li>Modernising the frontend using Angular 19+ and TypeScript.</li>
+                  <li>Developing backend REST APIs using C# and ASP.NET Core (.NET 10).</li>
+                  <li>Using Entity Framework Core for PostgreSQL data access.</li>
+                  <li>Integrating Neon PostgreSQL and Neon Better Auth.</li>
+                  <li>Implementing customer registration, authentication and email verification.</li>
+                  <li>Building product catalogue, search, filtering and pagination functionality.</li>
+                  <li>Developing persistent shopping-cart and order-management functionality.</li>
+                  <li>Designing protected administrative functionality.</li>
+                  <li>Using integer-based monetary values to preserve financial precision.</li>
+                  <li>Preparing cloud deployment and object storage integrations.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>Angular</span>
+              <span>TypeScript</span>
+              <span>C#</span>
+              <span>.NET 10</span>
+              <span>EF Core</span>
+              <span>Neon PostgreSQL</span>
+              <span>Better Auth</span>
+              <span>AWS S3</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/jungleShop"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://jungle-shop.vercel.app/"
+                 target="_blank" rel="noopener noreferrer">Live Site ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Medical Website -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">WEB DEVELOPMENT</span>
+            </div>
+
+            <h3>Medical Practice Website</h3>
+
+            <p class="project-description">
+              Professional website developed for Dr HM Modiba-Mlaza,
+              providing patients with accessible practice,
+              service and contact information.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>Responsive medical practice website.</li>
+                  <li>Structured doctor profile and professional services information.</li>
+                  <li>Google Maps integration for practice location.</li>
+                  <li>WhatsApp click-to-chat integration.</li>
+                  <li>Mobile-friendly layouts and accessible navigation.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Google Maps</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/drModibaWebpage"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://benedictmzizi.github.io/drModibaWebpage"
+                 target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Flag Explorer -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">FULL-STACK DEVELOPMENT</span>
+            </div>
+
+            <h3>Flag Explorer</h3>
+
+            <p class="project-description">
+              Interactive country exploration application
+              demonstrating API integration, frontend data
+              presentation and cloud deployment.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>React frontend and Node.js/Express backend.</li>
+                  <li>REST Countries API integration.</li>
+                  <li>Country search, filtering and detailed information.</li>
+                  <li>Environment-based API configuration.</li>
+                  <li>GitHub Actions deployment automation.</li>
+                  <li>Frontend and backend deployed independently.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>REST API</span>
+              <span>GitHub Actions</span>
+              <span>Vercel</span>
+              <span>Render</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/FlagExplorerApp"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://flag-explorer-app-one.vercel.app/"
+                 target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Team Registration -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">BUSINESS APPLICATION</span>
+            </div>
+
+            <h3>Team Registration App</h3>
+
+            <p class="project-description">
+              Registration and administration platform supporting
+              participant submissions, approval workflows and
+              real-time application updates.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>React frontend with Supabase backend.</li>
+                  <li>Participant registration and data management.</li>
+                  <li>Separate administrative and user experiences.</li>
+                  <li>Approval and rejection workflows.</li>
+                  <li>Database Row-Level Security.</li>
+                  <li>Email notifications and real-time updates.</li>
+                  <li>Vercel deployment.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>Supabase</span>
+              <span>PostgreSQL</span>
+              <span>Vercel</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/TeamRegistrationApp"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://team-registration-app.vercel.app"
+                 target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Clinic Documentation -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">DESKTOP APPLICATION</span>
+            </div>
+
+            <h3>Clinic Documentation Digitisation</h3>
+
+            <p class="project-description">
+              Desktop-based patient record management application
+              designed to digitise clinic documentation and
+              replace manual record-keeping workflows.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>Requirements gathering and application planning.</li>
+                  <li>Windows Forms graphical interface.</li>
+                  <li>Patient record creation and management.</li>
+                  <li>SQL Server relational database.</li>
+                  <li>Entity Framework data access.</li>
+                  <li>CRUD operations and data validation.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>C#</span>
+              <span>WinForms</span>
+              <span>SQL Server</span>
+              <span>Entity Framework</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/BFT-solutions"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Automation -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">WORKFLOW AUTOMATION</span>
+            </div>
+
+            <h3>Registration Automation</h3>
+
+            <p class="project-description">
+              Automated school registration workflow connecting
+              form submissions, spreadsheet records and
+              email confirmations.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>Google Apps Script workflow logic.</li>
+                  <li>Google Sheets data management.</li>
+                  <li>Mailjet email integration.</li>
+                  <li>Zapier workflow automation.</li>
+                  <li>Conditional triggers and error handling.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>Google Apps Script</span>
+              <span>Google Sheets</span>
+              <span>Mailjet</span>
+              <span>Zapier</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/RegistrationAutomation"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Robotics -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">ROBOTICS & AUTOMATION</span>
+            </div>
+
+            <h3>Autonomous Line-Following Robot</h3>
+
+            <p class="project-description">
+              Sensor-driven robotics project implementing
+              autonomous navigation, directional control
+              and obstacle detection.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>Multi-sensor input processing.</li>
+                  <li>Real-time motor control and navigation.</li>
+                  <li>Sensor calibration and hardware troubleshooting.</li>
+                  <li>DRV8835 motor driver integration.</li>
+                  <li>Ultrasonic and light-dependent resistor sensors.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>C++</span>
+              <span>Arduino</span>
+              <span>DRV8835</span>
+              <span>NewPing</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/Autonomous-Line-Following-Robot"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+
+          </article>
+
+          <!-- Trading Bot -->
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-type">PYTHON & DATA ANALYSIS</span>
+            </div>
+
+            <h3>Volatility Index Trading Bot</h3>
+
+            <p class="project-description">
+              Algorithmic trading project exploring automated
+              technical analysis, trading execution and
+              risk-management logic.
+            </p>
+
+            <details>
+              <summary>Project Details</summary>
+              <div class="details-content">
+                <ul>
+                  <li>RSI and EMA-based trading strategies.</li>
+                  <li>Historical strategy backtesting.</li>
+                  <li>Python-based market data analysis.</li>
+                  <li>MetaTrader 5 integration.</li>
+                  <li>Deriv API integration and execution logic.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="tech-stack">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>MetaTrader 5</span>
+              <span>Deriv API</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/BenedictMzizi/Robot1000"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">TECHNICAL EXPERTISE</span>
+          <h2>Skills & Technologies</h2>
+          <p>Technologies and tools applied across software development and IT operations.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <h3>Frontend Development</h3>
+            <div class="skill-tags">
+              <span>React</span>
+              <span>Angular</span>
+              <span>TypeScript</span>
+              <span>JavaScript</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Backend Development</h3>
+            <div class="skill-tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>C#</span>
+              <span>ASP.NET Core</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>REST APIs</span>
+              <span>JWT</span>
+              <span>Spring Security</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Databases & Data Management</h3>
+            <div class="skill-tags">
+              <span>PostgreSQL</span>
+              <span>MySQL</span>
+              <span>SQL Server</span>
+              <span>Oracle SQL</span>
+              <span>Neon</span>
+              <span>Supabase</span>
+              <span>MongoDB</span>
+              <span>Entity Framework</span>
+              <span>Hibernate / JPA</span>
+              <span>Database Design</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Cloud & Infrastructure</h3>
+            <div class="skill-tags">
+              <span>AWS EC2</span>
+              <span>AWS S3</span>
+              <span>AWS RDS</span>
+              <span>AWS IAM</span>
+              <span>Linux</span>
+              <span>Nginx</span>
+              <span>SSL/TLS</span>
+              <span>DNS</span>
+              <span>Vercel</span>
+              <span>Render</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>DevOps & Automation</h3>
+            <div class="skill-tags">
+              <span>Git</span>
+              <span>GitHub Actions</span>
+              <span>Docker</span>
+              <span>Bash</span>
+              <span>CI/CD</span>
+              <span>PM2</span>
+              <span>Zapier</span>
+              <span>Google Apps Script</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Security & Testing</h3>
+            <div class="skill-tags">
+              <span>RBAC</span>
+              <span>Row-Level Security</span>
+              <span>OAuth2</span>
+              <span>JWT</span>
+              <span>Postman</span>
+              <span>API Testing</span>
+              <span>Integration Testing</span>
+              <span>OWASP</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+              <span>Java</span>
+              <span>C#</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>C/C++</span>
+              <span>PHP</span>
+              <span>SQL</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>IT Operations & Tools</h3>
+            <div class="skill-tags">
+              <span>Windows</span>
+              <span>Microsoft 365</span>
+              <span>Networking</span>
+              <span>VMware</span>
+              <span>VirtualBox</span>
+              <span>VS Code</span>
+              <span>Visual Studio</span>
+              <span>Jira</span>
+              <span>Figma</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">ACADEMIC BACKGROUND</span>
+          <h2>Education</h2>
+        </div>
+
+        <div class="education-grid">
+
+          <article class="education-card">
+            <span class="education-icon">01</span>
+            <div>
+              <h3>Bachelor of Science in Information Technology</h3>
+              <p>North-West University</p>
+            </div>
+          </article>
+
+          <article class="education-card">
+            <span class="education-icon">02</span>
+            <div>
+              <h3>National Senior Certificate</h3>
+              <p>Springs Boys High School</p>
+
+              <details>
+                <summary>View Subjects</summary>
+                <div class="details-content">
+                  <ul>
+                    <li>Mathematics</li>
+                    <li>Accounting</li>
+                    <li>Business Studies</li>
+                    <li>Life Sciences</li>
+                    <li>English Home Language</li>
+                    <li>Afrikaans First Additional Language</li>
+                    <li>Life Orientation</li>
+                  </ul>
+                </div>
+              </details>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">CONTINUOUS LEARNING</span>
+          <h2>Certifications & Training</h2>
+        </div>
+
+        <div class="certification-grid">
+
+          <div class="certification-item">
+            <span>01</span>
+            AWS Cloud Practitioner Essentials — Coursera
+          </div>
+
+          <div class="certification-item">
+            <span>02</span>
+            AWS Cloud Technical Essentials — Coursera
+          </div>
+
+          <div class="certification-item">
+            <span>03</span>
+            Introduction to DevOps — IBM / Coursera
+          </div>
+
+          <div class="certification-item">
+            <span>04</span>
+            Data Science & Modern AI — Cisco / IBM SkillsBuild
+          </div>
+
+          <div class="certification-item">
+            <span>05</span>
+            AI Fundamentals — Cisco Networking Academy
+          </div>
+
+          <div class="certification-item">
+            <span>06</span>
+            Python Essentials — Cisco / Python Institute
+          </div>
+
+          <div class="certification-item">
+            <span>07</span>
+            Cybersecurity — Cisco Networking Academy
+          </div>
+
+          <div class="certification-item">
+            <span>08</span>
+            Dante Level 1–3 — Dante
+          </div>
+
+          <div class="certification-item">
+            <span>09</span>
+            Savant Core Certification — Savant Labs
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-content">
+
+        <span class="eyebrow">LET'S CONNECT</span>
+
+        <h2>Have a project or opportunity in mind?</h2>
+
+        <p>
+          I'm interested in software development opportunities,
+          backend engineering, full-stack development and
+          cloud-focused engineering roles.
+        </p>
+
+        <a href="mailto:bennydrizi@gmail.com"
+           class="btn btn-primary">
+          Get in Touch
+        </a>
+
+        <div class="contact-details">
+          <a href="mailto:bennydrizi@gmail.com">
+            bennydrizi@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/in/benedict-mzizi"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+
+          <a href="https://github.com/BenedictMzizi"
+             target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+        </div>
+
+        <p class="references-note">
+          Professional references available upon request.
+        </p>
+
+        <a href="doc/Benedict_Mzizi_Resume.pdf"
+           class="resume-download"
+           target="_blank"
+           rel="noopener noreferrer">
+          Download Full Resume (PDF) ↓
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
     <div class="container">
-      <h2>Core Technical Skills</h2>
-   <ul>
-
-      <li><strong>Cloud & Infrastructure:</strong> AWS (EC2, S3, RDS, IAM, Security Groups), Linux server administration, Nginx reverse proxy, SSL/TLS configuration, DNS management, environment variables, log monitoring, load balancing fundamentals, Vercel/Render/Netlify deployments.</li>
-      <li><strong>DevOps & CI/CD:</strong> GitHub Actions, Docker (basics), containerisation, Bash scripting, Linux CLI, Git version control, release management, automated deployment pipelines.</li>
-      <li><strong>Full-Stack Development:</strong> React (Hooks, State Management), Node.js, Express.js, RESTful API design, ASP.NET MVC, ADO.NET, Entity Framework, Django (basic), secure authentication (OAuth2, JWT).</li>
-      <li><strong>Databases & Data Management:</strong> PostgreSQL, MySQL, SQL Server, Oracle SQL, Supabase (BaaS), MongoDB (basic), relational schema design, constraints, indexing, Row-Level Security (RLS).</li>
-      <li><strong>Systems Implementation & Automation:</strong> API integrations, Webhooks, Google Apps Script, Zapier, Mailjet, workflow automation, requirements documentation, system rollout & deployment support, process optimisation.</li>
-      <li><strong>Networking & Security:</strong> LAN/WAN troubleshooting, DHCP, DNS, subnetting, routing & switching fundamentals, firewall configuration, OWASP Top 10, secure coding practices, vulnerability awareness.</li>
-      <li><strong>Software Testing & QA:</strong> Functional, integration, regression and API testing (Postman), test case design, defect tracking, UAT support, root-cause analysis, CI/CD testing workflows.</li>
-      <li><strong>IT Support & Technical Operations:</strong> Windows 10/11, Microsoft 365 administration, device imaging, hardware troubleshooting, printer support, macOS & Linux basics, CCTV installation & structured cabling.</li>
-      <li><strong>Programming Languages:</strong> Python, JavaScript (ES6+), Java, C#, C/C++, PHP, SQL.</li>
-      <li><strong>Tools & Platforms:</strong> GitHub, VS Code, Visual Studio, VMware, VirtualBox, Jira, Trello, Figma, AWS CLI, Postman, PM2.</li>
-
-    </ul>
-    </div>
-  </section>
-
-  <section id="certifications">
-    <div class="container">
-      <h2>Certifications</h2>
-      <ul>
-        <li>AWS Cloud Practitioner Essentials (Coursera)</li>
-        <li>AWS Cloud Technical Essentials (Coursera)</li>
-        <li>Introduction to DevOps by IBM (Coursera)</li>
-        <li>Data Science & Modern AI – Cisco (IBM SkillsBuild)</li>
-        <li>AI Fundamentals – Cisco Networking Academy</li>
-        <li>Python Essentials – Cisco / Python Institute</li>
-        <li>Cybersecurity – Cisco Networking Academy</li>
-        <li>Dante Level 1-3 – Dante</li>
-        <li>Savant Core Certification – Savant Labs</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="aspirations">
-    <div class="container">
-      <h2>Aspirations</h2>
-    <ul>
-  <li>Architect and deploy scalable, production-grade cloud systems.</li>
-  <li>Advance expertise in AWS architecture, infrastructure automation, and secure system design.</li>
-  <li>Contribute to engineering teams focused on reliability, performance, and DevOps maturity.</li>
-  <li>Deepen specialization in distributed systems, automation frameworks, and AI-integrated workflows.</li>
-</ul>
-    </div>
-  </section>
-
-  <section id="references">
-    <div class="container">
-      <h2>References</h2>
-      <p>Available upon request</p>
-    </div>
-  </section>
-
-  <section id="documents">
-    <div class="container">
-      <h2>Documents</h2>
-      <ul>
-         <li><a href="doc/Benedict_Mzizi_Resume.pdf"download>Download Resume (PDF)</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contacts">
-    <div class="container">
-      <h2>Contacts</h2>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/benedict-mzizi">LinkedIn</a></p>
-      <p>Email: bennydrizi@gmail.com</p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 Benedict de Almeida Mzizi. All rights reserved.</p>
+      <a href="#home" class="brand">BM<span>.</span></a>
+      <p>
+        © 2026 Benedict de Almeida Mzizi. All rights reserved.
+      </p>
+      <a href="#home">Back to top ↑</a>
     </div>
   </footer>
+
 </body>
 </html>
