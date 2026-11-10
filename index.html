@@ -115,24 +115,25 @@ Strong understanding of system implementation, deployment automation, and produc
     <summary>Project Overview</summary>
       <ul>
         <li>Designed and developed a full-stack multi-role Hospital Management System to streamline clinical operations including patient registration, visits, prescriptions, billing, pharmacy dispensing, and administrative control.</li>
-        <li>Implemented secure authentication and role-based access control for Admin, Doctor, Pharmacist, Receptionist, Billing, and IT roles.</li>
-        <li>Built structured workflows for patient lifecycle management: registration → consultation → prescription → billing → pharmacy queue.</li>
-        <li>Implemented Row-Level Security (RLS) policies to enforce practice-level data isolation and prevent unauthorized access.</li>
-        <li>Designed audit logging mechanisms to track system actions (e.g., prescription dispensing, billing updates) for accountability and traceability.</li>
-        <li>Developed responsive dashboards tailored to user roles, improving operational visibility and workflow efficiency.</li>
-        <li>Structured the database schema with relational integrity, foreign keys, constraints, and enum-based role management.</li>
-        <li>Deployed production-ready application using Vercel with Supabase backend infrastructure.</li>
+        <li>• Platform architecture: Designed a multi-facility system intended to support separate facility staff, patient records, wards and operational data. </li>
+        <li>• Patient and reception workflows: Built patient record management, appointment scheduling, arrival lookup and reception workflows.</li>
+        <li>• Clinical operations: Implemented role-specific nursing and doctor workflows, including vitals recording and consultations. </li>
+        <li>• Ward and admissions management: Developed ward and bed management workflows covering bed allocation, admissions, transfers, discharges and occupancy tracking. </li>
+        <li>• Diagnostics and pharmacy: Built digital diagnostic request workflows spanning radiology and laboratory operations, alongside pharmacy workflows.</li>
+        <li>• Billing and payments: Implemented billing, payment recording, receipts and refund workflows, including controlled refund processing and idempotent payment handling. </li>
+        <li>• Security and data integrity: Implemented role-based permissions and facility-scoped access, supported by 
+relational data structures, SQL workflows and auditability considerations. </li>
       </ul>
   </details>
 
   <details>
     <summary>Tech Stack</summary>
       <ul>
-        <li>Frontend: React (Functional Components, Hooks, React Router)</li>
-        <li>Backend: Supabase (PostgreSQL, Authentication, Row-Level Security)</li>
-        <li>Database: PostgreSQL with constraints, functions, triggers, and policy enforcement</li>
-        <li>Security: Role-Based Access Control (RBAC), RLS policies, practice-level data isolation</li>
-        <li>Deployment: Vercel (Frontend hosting), GitHub (Version Control)</li>
+        <li>React</li>
+        <li>JavaScript</li>
+        <li>Tailwind CSS</li>
+        <li>Supabase</li>
+        <li>PostgreSQL</li>
       </ul>
   </details>
 
@@ -156,28 +157,25 @@ Strong understanding of system implementation, deployment automation, and produc
         <details>
           <summary>Project Overview</summary>
           <ul>
-            <li>Built a responsive frontend with React and Tailwind CSS featuring dynamic product browsing, search, cart, and checkout..</li>
-            <li>Created a secure backend using Node.js and Express, with admin-protected product CRUD routes</li>
-            <li>Managed state and dynamic cart interactions using React Context API</li>
-            <li>Integrated MySQL (AWS RDS) for relational product and order data</li>
-            <li>Configured AWS S3 for secure image uploads and static file hosting.</li>
-            <li>Deployed backend on AWS EC2 with PM2 process manager, SSL via Let's Encrypt, and Nginx reverse proxy</li>
-            <li>Implemented CI/CD pipelines using GitHub Actions, automating builds, tests, and deploys.</li>
-            <li>Conducted functional, integration, and API testing using Postman; validated user workflows, checkout processes, and admin logic</li>
-            <li>Deployed Linux servers using AWS EC2, configured Nginx reverse proxy, SSL certificates, environment variables, and PM2 process managers</li>
-          </ul>
+            <li>• Application modernisation: Evolving an existing e-commerce application toward a modular Angular front end and ASP.NET Core backend architecture.</li>
+            <li>• Shopping experience: Product catalogue with search, filtering and pagination, plus persistent shopping-cart functionality. </li>
+            <li>• Customer identity: Integrated Neon Better Auth for customer registration, login and email verification./li>
+            <li>• Backend and data: Developing RESTful services in C#/.NET 10 with Entity Framework Core and Neon PostgreSQL for product and order data. </li>
+            <li>• Administration and integrity: Building protected product-management functionality and using integer minor currency units to avoid floating-point precision issues. </li>
+            </ul>
         </details>
         <details>
           <summary>Tech Stack</summary>
           <ul>
-            <li>React, Tailwind CSS for frontend</li>
-            <li>Node.js + Express for backend API and server logic</li>
-            <li>MySQL on AWS RDS for relational data storage</li>
-            <li>AWS S3 for media storage</li>
-            <li>AWS EC2 + PM2 for backend hosting</li>
-            <li>Nginx for reverse proxy and SSL</li>
-            <li>Stripe API for payments, JWT for authentication</li>
-            <li>GitHub Actions for CI/CD</li>
+            <li>Angular 19+</li>
+            <li>TypeScript</li>
+            <li>C#</li>
+            <li>ASP.NET Core (.NET 10)</li>
+            <li>Entity Framework Core</li>
+            <li> Neon PostgreSQL</li>
+            <li>Neon Better Auth</li>
+            <li>AWS S3</li>
+            <li>REST APIs</li>
           </ul>
         </details>
         <details>
@@ -201,7 +199,7 @@ Strong understanding of system implementation, deployment automation, and produc
           </ul>
         </details>
         <a href="https://github.com/BenedictMzizi/jungleShop">GitHub</a>
-        <a href="http://jungleshop-frontend-mzi.s3-website.eu-north-1.amazonaws.com">Live Demo</a>
+        <a href="https://jungle-shop.vercel.app/">Live Demo</a>
       </li>
 
 
