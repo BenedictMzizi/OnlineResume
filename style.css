@@ -63,7 +63,7 @@ img { max-width: 100%; display: block; }
 .social-links a:hover { color: var(--gold); }
 .hero-image { justify-self: center; text-align: center; }
 .image-frame { width: 310px; height: 370px; padding: 9px; border: 1px solid rgba(255,215,132,.65); border-radius: 50%; background: #00466D; box-shadow: 0 25px 70px rgba(0,0,0,.3); transform: rotate(2deg); }
-.image-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center; border-radius: 12px; }
+.image-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center; border-radius: 50%; }
 .image-caption { display: inline-flex; align-items: center; gap: 9px; margin-top: 25px; color: #D5E8F3; font-size: .8rem; }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #34D399; }
 
